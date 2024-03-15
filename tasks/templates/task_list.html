@@ -1,0 +1,15 @@
+<!-- tasks/task_list.html -->
+<form method="get">
+    <select name="status">
+        <option value="" selected>All</option>
+        <option value="Open">Open</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+<!-- Task listing -->
+{% for task in tasks %}
+    <!-- Display task details -->
+{% endfor %}
